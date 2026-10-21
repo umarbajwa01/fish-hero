@@ -1,0 +1,25 @@
+{
+  "name": "craft-koi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node scripts/verify-motion.mjs"
+  },
+  "dependencies": {
+    "@fontsource/outfit": "^5.2.6",
+    "@fontsource/barlow-condensed": "^5.2.6",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.11",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.1.0"
+  }
+}
